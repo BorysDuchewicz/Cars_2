@@ -1,0 +1,68 @@
+[
+  {
+    "model": "AUDI",
+    "price": 1200,
+    "mileage": 12000,
+    "engine": {
+      "type": "LPG",
+      "power": 210.0
+    },
+    "carBody": {
+      "color": "BLACK",
+      "type": "HATCHBACK",
+      "components": [
+        "ABS",
+        "AIR CONDITIONING"
+      ]
+    },
+    "wheel": {
+      "type": "WINTER",
+      "model": "PIRELLI",
+      "size": 18
+    }
+  },
+  {
+    "model": "AAUDI",
+    "price": 2120,
+    "mileage": 12000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 210.0
+    },
+    "carBody": {
+      "color": "BLACK",
+      "type": "HATCHBACK",
+      "components": [
+        "ABS",
+        "AIR CONDITIONING"
+      ]
+    },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "PIRELLI",
+      "size": 18
+    }
+  },
+  {
+    "model": "SKODA",
+    "price": 3120,
+    "mileage": 12000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 210.0
+    },
+    "carBody": {
+      "color": "BLACK",
+      "type": "HATCHBACK",
+      "components": [
+        "ABSS",
+        "AIR CONDITIONING"
+      ]
+    },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "PIRELLI",
+      "size": 18
+    }
+  }
+]

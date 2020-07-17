@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Libs">
+      <UniqueIdentifier>{9a590f36-0eb0-488f-8450-0526ba76289c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Validators">
+      <UniqueIdentifier>{b1df9921-3be5-4034-b11e-758bb4fe9e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Validator">
+      <UniqueIdentifier>{c9dffbf4-2fb6-4161-a6ed-d03a6a26e5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{80085ac6-7a6d-40a5-baac-2cf0a7342287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{d30c2048-033d-4dcc-b056-ffea87d7630b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Car elements">
+      <UniqueIdentifier>{0ac40615-9cd5-465b-9bfc-ff85e92ea7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loadres">
+      <UniqueIdentifier>{bd112a39-7121-4103-991b-e5120795e500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services">
+      <UniqueIdentifier>{369915b6-f1c4-4ad3-9dfd-9da3388f5a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{c3154c28-4f82-437f-9388-b4b2e1a80a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders">
+      <UniqueIdentifier>{a6bb88fc-d494-48c5-a082-517de3c5380a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{a49e7bd5-a947-45fe-8a96-f168eb027d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services">
+      <UniqueIdentifier>{b30e41c9-5f5e-4134-8d20-ffc67d621bfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="car_validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="wheel_validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="car_body_validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_validator.h">
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>Header Files\Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="app_exception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="car_body.h">
+      <Filter>Header Files\Car elements</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files\Car elements</Filter>
+    </ClInclude>
+    <ClInclude Include="wheel.h">
+      <Filter>Header Files\Car elements</Filter>
+    </ClInclude>
+    <ClInclude Include="car.h">
+      <Filter>Header Files\Car elements</Filter>
+    </ClInclude>
+    <ClInclude Include="car_utils.h">
+      <Filter>Header Files\Loadres</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_service.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="user_data_service.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="cars_utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="car_validator.cpp">
+      <Filter>Source Files\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="wheel_validator.cpp">
+      <Filter>Source Files\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="car_body_validator.cpp">
+      <Filter>Source Files\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_validator.cpp">
+      <Filter>Source Files\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="app_exception.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="car_utils.cpp">
+      <Filter>Source Files\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cars_utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_service.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="user_data_service.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
